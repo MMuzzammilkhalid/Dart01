@@ -16,7 +16,6 @@ int sub3 = int.parse(stdin.readLineSync()!);
 int sub4 = int.parse(stdin.readLineSync()!);
 int sub5 = int.parse(stdin.readLineSync()!);
 int sum = sub1 + sub2 + sub3 + sub4 + sub5 ;
-double average = sum/5;
 num percentage = sum/500 *100;
 if(percentage >= 90){
   print("Grade: A");
@@ -38,9 +37,8 @@ else{
   print("Grade: F");
 }
 
-print("Sum: $sum");
+print("Sum: $sum Out of 500");
 
-print("Average: $average");
 
 print("Percentage: $percentage%");
 
